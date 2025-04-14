@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 50px;
+    margin-left: 100px;
+}
+
+.header1 h3 {
+    color: grey;
+}
+
+.header1 h3:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.main1 {
+    width: 100%;
+    height: 728px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main1son2 {
+    width: 40%;
+    height: 728px;
+}
+
+.main1son1 {
+    width: 60%;
+    height: 728px;
+    background-color: black;
+}
+
+.main1son2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.gamarjoba {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+.main1son1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main1son1 h1 {
+    font-size: 50px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: start;
+    gap: 20px;
+    padding: 60px;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    height: 630px ;
+    margin-left: 550px;
+
+}
+.main2son2{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+.foto2 img {
+    width: 100%;
+    height: 630px;
+}
+.foto1 img {
+    width:100% ;
+    height: 630px;
+}
+.header3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: start;
+    gap: 20px;
+    padding: 60px;
+}
+.footer  {
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    margin-top: 250px;
+}
+
+.form-wrapper {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    color: white;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .field label {
+    margin-bottom: 5px;
+  }
+  
+  .field input,
+  .field textarea {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .field input:focus,
+  .field textarea:focus {
+    outline: none;
+    border-bottom: 1px solid ;
+  }
+  
+  .submit-btn {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+
+  button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+  }
+
+
+
